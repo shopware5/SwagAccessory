@@ -1,0 +1,87 @@
+.smaller {
+    font-size: smaller;
+}
+.accessoryContainer--accessory_group,
+.accessory-content--head {
+    .clearfix();
+}
+
+.box--accessory-content {
+    border: none;
+    .unitize(margin-bottom, 10);
+    overflow:hidden;
+}
+
+.head--checkbox {
+    width:5%;
+    float:left;
+}
+
+.head--label-content {
+    width:90%;
+    float:left;
+}
+
+.box--accessory-content .accessory-content--content .content--image,
+.box--accessory-content .accessory-content--content .content--description {
+    display: none;
+}
+
+.head--label-content .label-content-surcharge {
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: @tabletViewportWidth) {
+    .box--accessory-content {
+        border: solid;
+        .unitize(border-width,1);
+        border-color:#E9E9EF;
+        .border-radius-multi(4px, 4px, 4px, 4px);
+        .unitize(height, 160);
+        .unitize-padding(10,0,0,10);
+        margin-right: 1%;
+        width:32.3333%;
+        float:left;
+    }
+
+    .box--accessory-content .accessory-content--content .content--image,
+    .box--accessory-content .accessory-content--content .content--description {
+        display: block;
+    }
+
+    .box--accessory-content .accessory-content--content .content--image {
+        .unitize(padding-top, 10);
+        .unitize(height, 60);
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .box--accessory-content .accessory-content--content .content--image .image--element {
+        text-align: center;
+    }
+
+    .box--accessory-content .accessory-content--content .content--image .image--element img{
+        margin:0 auto;
+    }
+
+    .box--accessory-content .accessory-content--content .content--description {
+        .unitize(height, 200);
+        overflow:hidden;
+        font-size: smaller;
+    }
+
+    .head--checkbox {
+        width: 10%;
+    }
+
+    .head--label-content {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: @tabletLandscapeViewportWidth) {
+    .box--accessory-content {
+        width:24%;
+    }
+}

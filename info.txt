@@ -1,0 +1,2 @@
+Dieses Plugin integriert die aus Shopware 3.x bekannten Zubehör-Artikel.
+Zubehörartikel aus einer früheren Shopware Version werden automatisch übernommen und an die neue Datenstruktur angepasst.
