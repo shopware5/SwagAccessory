@@ -1,5 +1,8 @@
 # SwagAccessory
 
+## Supported versions
+Shopware version 4.0.7 or higher
+
 ## Description
 This plugin makes it possible for customers to add multiple items to their shopping cart from single item detail page. 
 A mouse-over effect displays a pop-up box is where the customer is able to select and send additional complimentary items to their shopping cart.

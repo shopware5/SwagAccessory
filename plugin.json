@@ -11,17 +11,6 @@
 
     "currentVersion": "1.5.0",
 
-    "changelog": {
-        "de": {
-            "1.5.0": "PT-2921 - Feature: Shopware 5 Kompatibilität;",
-            "1.0.2": "Das Plugin zeigt nun Währungssymbole und Steuerinformationen für das Zubehör;"
-        },
-        "en": {
-            "1.5.0": "PT-2921 - Feature: Shopware 5 compatibility;",
-            "1.0.2": "The plugin now displays the currency symbol and tax information for the accessories;"
-        }
-    },
-
     "compatibility": {
         "minimumVersion": "4.0.7",
         "maximumVersion": null,

@@ -1,36 +1,12 @@
 <?php
-/**
- * Shopware 4.0
- * Copyright © 2012 shopware AG
+/*
+ * (c) shopware AG <info@shopware.com>
  *
- * According to our dual licensing model, this program can be used either
- * under the terms of the GNU Affero General Public License, version 3,
- * or under a proprietary license.
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  *
- * The texts of the GNU Affero General Public License with an additional
- * permission and of our proprietary license can be found at and
- * in the LICENSE file you have received along with this program.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Affero General Public License for more details.
- *
- * "Shopware" is a registered trademark of shopware AG.
- * The licensing of the program under the AGPLv3 does not imply a
- * trademark license. Therefore any rights, title and interest in
- * our trademarks remain entirely with us.
  */
 
-/**
- * Shopware Plugin SwagAccessory Backend Controller - SwagAccessory
- *
- * This controller provides all information needed for the backend-module.
- *
- * @category Shopware
- * @package Shopware\Plugins\SwagAccessory\Controller
- * @copyright Copyright (c) 2012, shopware AG (http://www.shopware.de)
- */
 class Shopware_Controllers_Backend_SwagAccessory extends Shopware_Controllers_Backend_ExtJs
 {
     /**
@@ -213,7 +189,8 @@ class Shopware_Controllers_Backend_SwagAccessory extends Shopware_Controllers_Ba
             DELETE FROM s_article_configurator_accessory_groups
             WHERE id=?",
             array($array["id"])
-        );;
+        );
+        ;
         Shopware()->Db()->query("
             DELETE FROM s_article_configurator_accessory_articles
             WHERE accessory_group_id=?",
