@@ -1,7 +1,6 @@
 # SwagAccessory
-
-## Supported versions
-Shopware version 4.0.7 or higher
+> Working with Shopware version 4.0.7 to 5.1.1
+> Higher versions may work either but were not tested.
 
 ## Description
 This plugin makes it possible for customers to add multiple items to their shopping cart from single item detail page. 
